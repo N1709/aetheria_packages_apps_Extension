@@ -25,7 +25,7 @@ public class PowerMenu extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_power_menu);
+        addPreferencesFromResource(R.xml.aetheria_settings_power_menu);
     }
 
     @Override
@@ -39,5 +39,5 @@ public class PowerMenu extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_power_menu);
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_power_menu);
 }

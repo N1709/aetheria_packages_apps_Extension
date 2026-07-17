@@ -73,7 +73,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_status_bar);
+        addPreferencesFromResource(R.xml.aetheria_settings_status_bar);
 
         final Context context = getContext();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -235,7 +235,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_status_bar) {
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_status_bar) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

@@ -56,7 +56,7 @@ class About : SettingsPreferenceFragment(), Preference.OnPreferenceChangeListene
 
         @JvmField
         val SEARCH_INDEX_DATA_PROVIDER =
-            BaseSearchIndexProvider(R.xml.evolution_settings_about)
+            BaseSearchIndexProvider(R.xml.aetheria_settings_about)
     }
 
     private val mExecutor = Executors.newSingleThreadExecutor()
@@ -77,7 +77,7 @@ class About : SettingsPreferenceFragment(), Preference.OnPreferenceChangeListene
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        addPreferencesFromResource(R.xml.evolution_settings_about)
+        addPreferencesFromResource(R.xml.aetheria_settings_about)
 
         if (PixelPropsUtils.isCustomForkBuild()) {
             preferenceScreen?.removeAll()

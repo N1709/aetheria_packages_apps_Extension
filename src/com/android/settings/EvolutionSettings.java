@@ -18,7 +18,7 @@ public class EvolutionSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings;
+        return R.xml.aetheria_settings;
     }
 
     @Override
@@ -32,5 +32,5 @@ public class EvolutionSettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings);
+            new BaseSearchIndexProvider(R.xml.aetheria_settings);
 }

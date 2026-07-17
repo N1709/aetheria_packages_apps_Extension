@@ -84,7 +84,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_quick_settings);
+        addPreferencesFromResource(R.xml.aetheria_settings_quick_settings);
 
         final Context context = getContext();
         final ContentResolver resolver = context.getContentResolver();
@@ -212,7 +212,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_quick_settings) {
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_quick_settings) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

@@ -58,7 +58,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_miscellaneous);
+        addPreferencesFromResource(R.xml.aetheria_settings_miscellaneous);
 
         Context mContext = getActivity().getApplicationContext();
         final ContentResolver resolver = mContext.getContentResolver();
@@ -167,7 +167,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_miscellaneous) {
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_miscellaneous) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

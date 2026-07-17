@@ -74,7 +74,7 @@ public class Themes extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_themes);
+        addPreferencesFromResource(R.xml.aetheria_settings_themes);
         mThemeUtils = ThemeUtils.getInstance(getContext());
 
         final Context context = getContext();
@@ -192,7 +192,7 @@ public class Themes extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_themes) {
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_themes) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

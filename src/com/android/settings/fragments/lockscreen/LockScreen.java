@@ -56,7 +56,7 @@ public class LockScreen extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_lock_screen);
+        addPreferencesFromResource(R.xml.aetheria_settings_lock_screen);
 
         final Context context = getContext();
 
@@ -131,7 +131,7 @@ public class LockScreen extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_lock_screen) {
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_lock_screen) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

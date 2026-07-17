@@ -28,7 +28,7 @@ public class Notifications extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_notifications);
+        addPreferencesFromResource(R.xml.aetheria_settings_notifications);
     }
 
     @Override
@@ -48,5 +48,5 @@ public class Notifications extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_notifications);
+            new BaseSearchIndexProvider(R.xml.aetheria_settings_notifications);
 }
